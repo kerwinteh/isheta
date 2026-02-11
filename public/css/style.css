@@ -1,10 +1,16 @@
 body {
     background-color: white;
+    background-image: url('../images/isheta.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    color: white;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
 }
@@ -97,23 +103,25 @@ body {
 
 .language-selector select {
     padding: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid rgba(255, 255, 255, 0.5);
     font-size: 16px;
+    color: white;
+    background: rgba(0, 0, 0, 0.3);
 }
 
 .creator {
     text-decoration: none;
-    color: #333;
+    color: white;
 }
 
 .creator:visited {
     text-decoration: none;
-    color: #333;
+    color: white;
 }
 
 .creator:hover {
     text-decoration: underline;
-    color: #555;
+    color: rgba(255, 255, 255, 0.9);
 }
 
 /* CSS For Mobile */
